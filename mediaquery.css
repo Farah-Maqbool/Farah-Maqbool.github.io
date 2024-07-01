@@ -29,6 +29,11 @@
         display: inline;
         display: grid;
         grid-template-columns: 1fr 1fr;
+        padding: 10px;
+        gap: 10px;
+    }
+    *{
+        border: solid red 1px;
     }
     .header_lp{
         display: none;
@@ -116,5 +121,18 @@
       
         font-size: 20px;
         
+    }
+    .contact div{
+        font-size: 20px;
+    }
+    .email img, .num svg{
+        width: 30px;
+        height: 30px;
+    }
+    .email div, .num div{
+        font-size: 18px !important;
+    }
+    .info{
+        height: 700px;
     }
 }
