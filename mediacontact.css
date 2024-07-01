@@ -1,0 +1,64 @@
+@media screen and (max-width: 425px) {
+    
+    .header_mobile{
+        display: inline;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        padding: 10px;
+    }
+    .header_lp{
+        display: none;
+       
+    }
+    .child_2{
+        
+        max-width: max-content;
+    }
+    .create_word{
+        font-size: 50px;
+    }
+    .let, .Something{
+        font-size: 30px;
+    }
+    .f, .m{
+        font-size: 40px;   
+        color: rgb(255, 238, 0);
+    }
+    .aqbool, .arah{
+  
+        font-size: 25px;
+         
+        margin-top: 15px;
+    }
+    .product{
+        margin-left: 0px;
+        margin-right: 0px;
+    
+    }
+    .child_1{
+        padding-right: 20px;
+    }
+    .contact div{
+        font-size: 20px !important;
+    }
+    .hire{
+        font-size: 10px;
+        padding: 10px; 
+    }
+}
+@media screen and (max-width: 768px) {
+    .contact div{
+        font-size: 30px;
+    }
+    .f, .m{
+        font-size: 40px;   
+        color: rgb(255, 238, 0);
+    }
+    .aqbool, .arah{
+  
+        font-size: 25px;
+         
+        margin-top: 15px;
+    }
+  
+}
