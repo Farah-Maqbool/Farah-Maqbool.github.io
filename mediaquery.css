@@ -32,9 +32,7 @@
         padding: 10px;
         gap: 10px;
     }
-    *{
-        border: solid red 1px;
-    }
+  
     .header_lp{
         display: none;
        
