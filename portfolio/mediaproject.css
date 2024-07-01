@@ -1,0 +1,100 @@
+@media screen and (max-width: 1024px) {
+    .project_detail{
+        
+        padding: 30px;
+    }
+    .project_img video{
+        height: 300px;
+        margin-bottom: 10px;
+    }
+    .project_img_user{
+        grid-template-columns: 1fr;
+    }
+  
+}
+@media screen and (max-width: 768px) {
+    .project_1_img{
+        
+        grid-template-columns: 1fr;
+        margin-left: 100px;
+        margin-right: 100px;
+        gap: 40px;
+    }
+    .f, .m{
+        font-size: 55px;   
+        color: rgb(255, 238, 0);
+    }
+    .aqbool, .arah{
+  
+        font-size: 30px;
+         
+        margin-top: 25px;
+    }
+    
+}
+@media screen and (max-width: 425px) {
+    .project_1_img{
+        display: block;
+    }
+    .header_mobile{
+        display: inline;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    .header_lp{
+        display: none;
+       
+    }
+    .child_2{
+        
+        max-width: max-content;
+    }
+    .create_word{
+        font-size: 50px;
+    }
+    .let, .Something{
+        font-size: 30px;
+    }
+    .f, .m{
+        font-size: 40px;   
+        color: rgb(255, 238, 0);
+    }
+    .aqbool, .arah{
+  
+        font-size: 25px;
+         
+        margin-top: 15px;
+    }
+    .product{
+        margin-left: 0px;
+        margin-right: 0px;
+    
+    }
+    .child_1{
+        padding-right: 20px;
+    }
+    .lp_project{
+        display: none;
+    }
+    .mobile_project{
+        display: block;
+    }
+    .project_img{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .project_img_user{
+        grid-template-columns: 1fr;
+        gap: 10px;
+    }
+    .project_1_img{
+        display: grid;
+        
+        margin-left: 10px;
+        margin-right: 10px;
+        gap: 40px;
+    }
+    .project_detail h1, p{
+        font-size: 10px;
+    }
+}
