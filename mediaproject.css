@@ -10,6 +10,9 @@
     .project_img_user{
         grid-template-columns: 1fr;
     }
+    .details2{
+        grid-template-columns: 1fr;
+    }
   
 }
 @media screen and (max-width: 768px) {
@@ -97,5 +100,16 @@
     }
     .project_detail h1, p{
         font-size: 10px;
+    }
+    .details2{
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 5px;
+        margin-left: 5px;
+        margin-right: 5px;
+        margin-top: 20px;
+    }
+    *{
+        overflow: hidden;
     }
 }
